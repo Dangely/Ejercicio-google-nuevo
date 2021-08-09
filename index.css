@@ -1,0 +1,17 @@
+body{
+    margin: 0;
+}
+.nav-enlace{
+    pantalla: bloque en línea;
+    color:  rgb(61, 60, 60);
+    decoración de texto: ninguna;
+    margen derecho:  18px;
+    margen superior:  10px;
+    margen izquierdo:  -3px;
+    familia de fuentes:arial, sans-serif;
+    altura de línea: 24px;
+    tamaño de fuente: 13px;
+}
+.nav-enlace:hover{
+    decoración de texto:subrayado
+}
