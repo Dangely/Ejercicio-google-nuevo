@@ -12,3 +12,12 @@ body{
     height: 24px;
     font-size: 13px;
 }
+.nav-enlace:hover{
+    text-decoration: underline;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    height: 40px;
+
+}
