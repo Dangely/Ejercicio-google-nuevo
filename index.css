@@ -19,5 +19,10 @@ nav{
     display: flex;
     justify-content: flex-end;
     height: 40px;
-
+}
+.google{
+    display: block;
+    margin: auto;
+    padding-top: 15px;
+    padding-left: 2px;
 }
