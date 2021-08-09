@@ -26,3 +26,13 @@ nav{
     padding-top: 15px;
     padding-left: 2px;
 }
+.dange{
+    display: flex;
+    justify-content: center;
+}
+.lupa{
+    display: inline-block;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 34px;
+}
