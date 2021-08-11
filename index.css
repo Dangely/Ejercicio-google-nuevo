@@ -66,8 +66,8 @@ nav{
     margin: 1px;
     fill: 10px 15px;
 
-    .partedeabajo:hover{
-        text-decoration: underline;
+    .partedeabajo: hover{
+        text-decoration: unerline;
 
     }
     .partes{
