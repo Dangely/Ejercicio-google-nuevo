@@ -1,11 +1,6 @@
 body{
     margin: 0;
-}
-#container{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
+
 }
 
 .nav-enlace{
@@ -29,6 +24,10 @@ body{
     margin-top: 1px;
     padding: 8px;
 
+}
+.cuadricula:hover{
+    background: rgb(231, 234, 236);
+    border-radius: 50%;
 }
 
 nav{
@@ -83,13 +82,14 @@ nav{
 
 .cuadrito:hover{
     border: 1px solid #d1d6d6;
+    box-shadow: 1px 1px 3px #d1d6d6;
 }
 
 .cuadritos-padre{
     display: flex;
     justify-content: center;
     margin-top: 28px;
-    size: box-border;
+    size: border-box;
 
 }
 
