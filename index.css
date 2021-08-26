@@ -22,6 +22,14 @@ body{
 .nav-enlace:hover{
     text-decoration: underline;
 }
+.cuadricula{
+    display: inline-block;
+    width: 26px; height: 26px;
+    margin-right: 11px;
+    margin-top: 1px;
+    padding: 8px;
+
+}
 
 nav{
     display: flex;
@@ -110,14 +118,14 @@ nav{
     margin-left: 30px;
     height: 45px;
 }
-.relleno:{
+.relleno{
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     text-decoration: none;
     color: rgba(0, 0, 0, 54);
     margin: 1px;
-    fill: 10px 15px;
+    padding: 10px 15px;
     }
     .relleno:hover{
         text-decoration: underline;
