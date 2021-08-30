@@ -23,6 +23,12 @@ head{
 .nav-enlace:hover{
     text-decoration: underline;
 }
+.nueva{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
 .cuadricula{
     display: inline-block;
     width: 26px; height: 26px;
@@ -32,14 +38,15 @@ head{
 
 }
 .cuadricula:hover{
-    background: rgb(231, 234, 236);
+    background: rgb(223, 231, 236);
     border-radius: 50%;
 }
 
-nav{
+.nav-enlace{
     display: flex;
     justify-content: flex-end;
     height: 40px;
+    padding-left: 15px;
 }
 .google{
     display: block;
